@@ -9,9 +9,38 @@
       <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
       <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
     </Filter>
-    <Filter Include="Resource Files">
+    <Filter Include="Header Files\Solid">
+      <UniqueIdentifier>{49e98646-aa61-4560-bec8-b912466201ea}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Solid\Resource Files">
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Solid_1">
+      <UniqueIdentifier>{7ab8c23b-1ddf-4a46-8199-90313bbb3b90}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Solid_2">
+      <UniqueIdentifier>{cef427d9-26f2-44c8-b7eb-154665f209c0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SingleResponsiblity.cpp">
+      <Filter>Source Files\Solid_1</Filter>
+    </ClCompile>
+    <ClCompile Include="OpenClosed.cpp">
+      <Filter>Source Files\Solid_1</Filter>
+    </ClCompile>
+    <ClCompile Include="LiskovSubstitution.cpp">
+      <Filter>Source Files\Solid_1</Filter>
+    </ClCompile>
+    <ClCompile Include="InterfaceSegregation.cpp">
+      <Filter>Source Files\Solid_1</Filter>
+    </ClCompile>
+    <ClCompile Include="DependencyInversion.cpp">
+      <Filter>Source Files\Solid_1</Filter>
+    </ClCompile>
+    <ClCompile Include="SingleResponsibility.cpp">
+      <Filter>Source Files\Solid_2</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
